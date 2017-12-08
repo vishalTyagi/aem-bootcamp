@@ -7,15 +7,12 @@
 %>
 <%=text%>
 <%}else{%>
-custom Text
+BLog Text
 <%}%>
-<%=resourceResolver.adaptTo(TagManager.class).getTags(resource).length%>
 <%
-
     TagManager tagManager = resourceResolver.adaptTo(TagManager.class);
     Tag[] tags = tagManager.getTags(resource);
     for(Tag tag:tags){
 %>
 <a href="/content/bootcamp/page/home.html?id=<%=tag.getTagID()%>"><%=tag.getTitle()%></a><br>
 <%}%>
-<%=tags.length%>

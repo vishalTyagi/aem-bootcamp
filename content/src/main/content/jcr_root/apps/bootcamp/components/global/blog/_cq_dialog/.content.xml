@@ -35,10 +35,10 @@
                                 fieldLabel="Description"
                                 name="./description"/>
                             <tags
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="cq/gui/components/common/tagspicker"
-                                    fieldLabel="Tags"
-                                    name="./cq:tags"/>
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/common/tagspicker"
+                                fieldLabel="Tags"
+                                name="./cq:tags"/>
                         </items>
                     </cloumn>
                 </items>
