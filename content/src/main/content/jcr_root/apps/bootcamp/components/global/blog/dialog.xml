@@ -19,6 +19,11 @@
                     fieldLabel="Description"
                     name="./description"
                     xtype="textarea"/>
+                <tags
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Tags"
+                    name="./cq:tags"
+                    xtype="tags"/>
             </items>
         </tab3>
     </items>
