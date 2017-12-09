@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="selectComp"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab3
+            jcr:primaryType="cq:Widget"
+            title="Text Details"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <selectList
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="Delhi"
+                    fieldLabel="City"
+                    name="./city"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <delhi
+                            jcr:primaryType="nt:unstructured"
+                            text="delhi"
+                            value="delhi"/>
+                        <rajsthan
+                            jcr:primaryType="nt:unstructured"
+                            text="Rajsthan"
+                            value="Rajsthan"/>
+                    </options>
+                </selectList>
+            </items>
+        </tab3>
+    </items>
+</jcr:root>
